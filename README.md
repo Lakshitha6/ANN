@@ -22,6 +22,7 @@ This project implements a binary classification pipeline to predict customer chu
 **Evaluation metrics & considerations**
 - **Metrics used:** Accuracy, confusion matrix, classification report (precision/recall/F1), ROC AUC.
 - **Class imbalance:** The dataset contains more non-churn examples; consider class weighting, oversampling (SMOTE), or threshold tuning to improve recall for the minority class.
+- **Dropout:** Not used because overfitting not occured. Train and Test accuracies not showed significant difference.
 
 **How to run**
 - Open and run `Binary_Classification.ipynb` in JupyterLab / Jupyter Notebook / Google Colab.
